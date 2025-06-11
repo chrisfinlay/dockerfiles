@@ -1,6 +1,6 @@
 FROM ubuntu:22.04
 
-MAINTAINER dr.chris.finlay@gmail.com
+LABEL org.opencontainers.image.authors="dr.chris.finlay@gmail.com"
 
 RUN apt-get update
 RUN apt-get install -y software-properties-common
