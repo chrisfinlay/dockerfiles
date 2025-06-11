@@ -7,5 +7,5 @@ RUN apt-get install -y software-properties-common
 RUN add-apt-repository -y ppa:kernsuite/kern-9
 RUN add-apt-repository -y multiverse
 RUN add-apt-repository -y restricted
-RUN apt-get install -y wsclean 
+RUN apt-get install -y wsclean=3.4*
 
